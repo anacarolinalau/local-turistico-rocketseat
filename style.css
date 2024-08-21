@@ -10,3 +10,16 @@ headline{
     color: E1624F;
     font-weight: bold;
 }
+
+h1{
+    color: #1B1B1B;
+}
+
+.description img{
+    border-radius: 28px;
+    width: fit-content;
+}
+.description p{
+    text-align: center;
+    font-style: italic;
+}
