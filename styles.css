@@ -1,21 +1,19 @@
 *{
-    font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
 body{
+    font-family: "Open Sans", sans-serif;
     background-color: #F5F4F0;
 }
 
 main {
-    margin: 40px 80px;
+    margin: 80px 80px 0 80px;
 }
 
-div{
-    margin-bottom: 40px;
-}
+
 
 span{
     color: #E1624F;
@@ -28,6 +26,7 @@ h1{
     color: #1B1B1B;
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
 img{
@@ -35,7 +34,7 @@ img{
     max-width: 100%;
 }
 
-div p{
+#title p{
     font-size: 16px;
     font-style: italic;
     margin-top: 24px;
@@ -60,10 +59,73 @@ hr {
     margin-top: 24px;
 }
 
-footer{
+.title-list{
+    margin: 64px 0 16px 0;
+}
+
+h2{
+    color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ol img{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    margin-top: 48px;
+}
+
+ol img+li
+
+h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+ul li{
+    list-style-position: inside;
+    list-style-type: disc;
+    color: #0C51A7;
+    font-weight: bold;
+}
+
+ul li::marker {
+    color: #333333;
+  }
+
+#casais{
+    color: #591B98;
+}
+
+#familias{
+    color: #E5245E;
+}
+
+#orcamentos{
+    color: #E95E10;
+}
+
+.description{
     text-align: center;
 }
 
-footer img{
-    align-items: center;
-}
+footer {
+    font-family: "Alice", serif;
+    text-align: center;
+    padding: 48px;
+    line-height: 150%;
+  }
+  
+  footer img {
+    vertical-align: middle;
+  }
